@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Lev3_3 Functions</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+            padding: 5rem;
+            justify-content: center;
+            gap: 10px;
+            background-color: black;
+        }
+
+        form {
+            display: flex;
+            gap: 30px;
+        }
+
+        label {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <FORM>
+        <label for="">RED <input onchange="redChange(value)" id="fontsize" type="range" min="0" max="255" value="0">
+        </label>
+        <label for="">GREEN <input onchange="greenChange(value)" id="fontsize" type="range" min="0" max="255" value="0">
+        </label>
+        <label for="">BLUE <input onchange="blueChange(value)" id="fontsize" type="range" min="0" max="255" value="0">
+        </label>
+    </FORM>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

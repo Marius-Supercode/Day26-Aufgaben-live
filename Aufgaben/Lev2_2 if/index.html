@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Lev2_2 if else</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form,
+        label,
+        input {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* input,
+        label {
+            width: 300px;
+        } */
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <p id="inputout">0</p>
+        <label for=""><input onchange="checkAurQuality(value)" value="90" step="10" id="input" min="0" max="150"
+                type="range"></label>
+        <p>Level of health concern: <span id="concernout"></span></p>
+        <p>Level of health effect: <span id="riskout"></span></p>
+    </form>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

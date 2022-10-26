@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+div {
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+div:hover {
+    box-shadow: 2px 4px 13px -2px #000000;
+
+}
+
+.div1 {
+    background: linear-gradient(45deg, #1d8f53 50%, #6e0a5f 50%);
+}
+
+.div2 {
+    background: linear-gradient(45deg, #444271 50%, #d9ab42 50%);
+}
+
+.div3 {
+    background: linear-gradient(45deg, #000020 50%, #c65e0b 50%);
+}
+
+.div4 {
+    background: linear-gradient(45deg, #0a0664 50%, #2accfe 50%);
+}
